@@ -6,7 +6,7 @@ The idea is inspired by privacy-first services like ProtonMail, where messages a
 
 ---
 
-## 🛠️ Project Goals
+## Project Goals
 
 - ✅ Set up OpenSMTPD to **receive mail locally** on macOS
 - ✅ Create and manage **GPG keypairs**
@@ -45,7 +45,7 @@ opensmtpd-gpg-filter/
 
 ---
 
-## 🧱 Step-by-Step Setup
+## Step-by-Step Setup
 
 ### 1. Install OpenSMTPD and GPG
 
@@ -209,10 +209,10 @@ q    #exit our of mailbox
 
 ## Limitations & Next Steps
 
-- ✅ Works only for **local delivery** (no external sending)
-- 🔒 GPG keys must be manually generated per user
-- 🔄 You can extend this to support multiple users by mapping public keys
-- 📤 Optionally, configure Gmail as a relay for outbound mail (I tried to this but failed. Horribly)
+- Works only for **local delivery** (no external sending)
+- GPG keys must be manually generated per user
+- You can extend this to support multiple users by mapping public keys
+- Optionally, configure Gmail as a relay for outbound mail (I tried to this but failed. Horribly)
 
 ## LINKS
 
@@ -223,7 +223,7 @@ q    #exit our of mailbox
 - [Protonmail](https://github.com/ProtonMail)
 - [Config file](https://man.openbsd.org/smtpd.conf)
 
-### 📁 Files:
+###  Files:
 
 - `README.md` — Clear overview (see below)
 - `smtpd.conf` — Your working OpenSMTPD config
